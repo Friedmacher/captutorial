@@ -1,3 +1,8 @@
+# Fiori Build
+dist/
+resources/
+app/*/package-lock.json
+
 # Logs
 logs
 *.log

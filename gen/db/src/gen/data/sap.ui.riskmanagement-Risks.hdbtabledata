@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "SAP_UI_RISKMANAGEMENT_RISKS",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "sap.ui.riskmanagement-Risks.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ";"
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "CREATEDAT",
+          "CREATEDBY",
+          "TITLE",
+          "PRIO",
+          "DESCR",
+          "MITI_ID",
+          "IMPACT"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "CREATEDAT": "createdAt",
+        "CREATEDBY": "createdBy",
+        "TITLE": "title",
+        "PRIO": "prio",
+        "DESCR": "descr",
+        "MITI_ID": "miti_id",
+        "IMPACT": "impact"
+      }
+    }
+  ]
+}
